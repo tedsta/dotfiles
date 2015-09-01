@@ -14,3 +14,5 @@ set autoindent          " copy indent from current line when starting a new
 " Bindings to test/run python projects
 au BufRead *.py nnoremap <Leader>t :!python all_tests.py<CR>
 au BufRead *.py nnoremap <Leader>r :!python main.py<CR>
+
+filetype on
